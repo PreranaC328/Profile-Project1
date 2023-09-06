@@ -5,23 +5,30 @@
 }
 body{
     background-color:#FFB7B7;
-    height:100vh;
-    width:100vw;
+    height:100%;
+    width:100%;
+    background-image: url('images/pink1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .navbar
 {
-    background-color:#F4EEEE;
+    /* background-color:#F4EEEE; */
     width:100%;
     height:100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#982176;
+    
 }
+
 p{
     color: black;
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
     margin:20px;
+    
 }
 .intro{
     margin-top:20px;
@@ -38,6 +45,7 @@ p{
     border-radius:50%;
     height:250px;
     width:230px;
+    box-shadow:#100f0f
 }
 .skills
 {
@@ -47,10 +55,17 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
-.skills h1{
-    margin-top:20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h1{
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:30px;
+    font-family:  'Dancing Script', cursive;
+
 }
 .skills h2{
     margin: 40px;
@@ -71,13 +86,52 @@ hr {
     width:60%;
 
 }
-.container{
+.container1{
     margin:40px;
     width:50%;
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-left:320px;
+    background-color: #FFE5E5;
+    border-radius: 30px;
+    border-color: #C23373;
+    border-style:dotted;
+    border-width:5px;
+    box-shadow: 10px 10px 50px 15px #79155B;
+
+
+}
+.container1:hover{
+    background:#79155B;
+    box-shadow: 10px 10px 50px 15px white;
+    cursor: pointer;
+}
+.container1 p:hover
+{
+    color:white;
+    cursor: pointer;
+}
+.container{
+    margin:30px;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4EEEE;
+    border-radius: 0px;
+    border-color: #C23373;
+    border-style:outset;
+    border-width:4px;
+    box-shadow: #100f0f;
+    box-shadow: 20px 20px 50px 10px pink inset;
+    
+   
 } 
+.container:hover{
+    box-shadow: 10px 10px 50px 10px #79155B;
+    cursor:pointer;
+}
 .container img{
     height: 150px;
     width:150px;
@@ -96,7 +150,7 @@ p{
 {
     height:100px;
     width:100vw;
-    background-color:#F4EEEE;
+    background-color:#982176;
     display:flex;
     justify-content: center;
     align-items: center;
