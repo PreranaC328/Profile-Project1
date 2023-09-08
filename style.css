@@ -141,7 +141,7 @@ hr {
 }
 p{
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-size: 40px;
 }
 .container img:hover{
     height:200px;
@@ -173,7 +173,7 @@ p{
         border-radius: 0px;
         border-color: #C23373;
         border-style:outset;
-        border-width:4px;
+        border-width:2px;
         box-shadow: #100f0f;
         box-shadow: 20px 20px 50px 10px pink inset;
         
@@ -202,5 +202,23 @@ hr {
     box-shadow: 10px 10px 50px 15px #79155B;
 
 
+}
+.container:hover{
+    box-shadow: 10px 10px 50px 10px #79155B;
+    cursor:pointer;
+}
+.container img{
+    height: 90px;
+    width:100px;
+    margin:10px;
+    transition: all .4s ease-in;
+}
+p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.container img:hover{
+    height:140px;
+    width: 140px;
 }
 }
